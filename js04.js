@@ -23,7 +23,15 @@ let firstName = "ramakrishna"
 // console.log(newsomeone.length)
 
 
-console.log(firstName.toUpperCase())
+// console.log(firstName.toUpperCase())
 
-let newname_slice =firstName.slice(0,3);
-console.log(newname_slice);
+// let newname_slice =firstName.slice(0,3);
+// console.log(newname_slice);
+
+// template String
+
+let age = 50;
+let message = "my name is "+ firstName+" and age is " + age;
+let newmessage = `My name is ${firstName} and age is ${age}`;
+console.log(message)
+console.log(newmessage);
